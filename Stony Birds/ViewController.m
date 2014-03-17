@@ -11,10 +11,9 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = YES;
@@ -28,24 +27,41 @@
     [skView presentScene:scene];
 }
 
-- (BOOL)shouldAutorotate
-{
-    return YES;
+-(IBAction)gravityButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    skView.scene.physicsWorld.gravity = CGVectorMake(0, skView.scene.physicsWorld.gravity.dy*-1);
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+-(IBAction)squareButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    MyScene * scene = (MyScene*)skView.scene;
+    scene.objectType = square;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+-(IBAction)hRectButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    MyScene * scene = (MyScene*)skView.scene;
+    scene.objectType = hRect;
+}
+
+-(IBAction)vRectButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    MyScene * scene = (MyScene*)skView.scene;
+    scene.objectType = vRect;
+}
+
+-(IBAction)pigButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    MyScene * scene = (MyScene*)skView.scene;
+    scene.objectType = pig;
+}
+
+-(IBAction)launchBallButtonHit:(id)sender {
+    SKView * skView = (SKView *)self.view;
+    MyScene * scene = (MyScene*)skView.scene;
+    scene.objectType = ball;
+    
+    scene.gameStarted = YES;
 }
 
 @end

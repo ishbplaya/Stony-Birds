@@ -14,27 +14,16 @@
 		F563C2E817EF7C9200460385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F563C2E617EF7C9200460385 /* InfoPlist.strings */; };
 		F563C2EA17EF7C9200460385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C2E917EF7C9200460385 /* main.m */; };
 		F563C2EE17EF7C9200460385 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C2ED17EF7C9200460385 /* AppDelegate.m */; };
-		F563C2F117EF7C9200460385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563C2EF17EF7C9200460385 /* Main.storyboard */; };
 		F563C2F417EF7C9200460385 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C2F317EF7C9200460385 /* ViewController.m */; };
 		F563C2F717EF7C9200460385 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C2F617EF7C9200460385 /* MyScene.m */; };
-		F563C2F917EF7C9200460385 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = F563C2F817EF7C9200460385 /* Spaceship.png */; };
 		F563C2FB17EF7C9200460385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F563C2FA17EF7C9200460385 /* Images.xcassets */; };
-		F563C30217EF7C9200460385 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C30117EF7C9200460385 /* XCTest.framework */; };
-		F563C30317EF7C9200460385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C2DB17EF7C9200460385 /* Foundation.framework */; };
-		F563C30417EF7C9200460385 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F563C2DF17EF7C9200460385 /* UIKit.framework */; };
-		F563C30C17EF7C9200460385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F563C30A17EF7C9200460385 /* InfoPlist.strings */; };
-		F563C30E17EF7C9200460385 /* Stony_BirdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F563C30D17EF7C9200460385 /* Stony_BirdsTests.m */; };
+		F563C31817EF7D2900460385 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F563C31717EF7D2900460385 /* ViewController.xib */; };
+		F563C31C17EF7EA900460385 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F563C31B17EF7EA900460385 /* sprites.atlas */; };
+		F5DF30A117EF917100C970DE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DF309F17EF917100C970DE /* spark.png */; };
+		F5DF30A317EF91E500C970DE /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5DF30A217EF91E500C970DE /* spark.sks */; };
+		F5DF30A917EF95F700C970DE /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5DF30A817EF95F700C970DE /* Fire.sks */; };
+		F5DF30AB17EF975400C970DE /* BallFlame.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5DF30AA17EF975400C970DE /* BallFlame.sks */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F563C30517EF7C9200460385 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F563C2D017EF7C9200460385 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F563C2D717EF7C9200460385;
-			remoteInfo = "Stony Birds";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F563C2D817EF7C9200460385 /* Stony Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stony Birds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,18 +37,18 @@
 		F563C2EB17EF7C9200460385 /* Stony Birds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stony Birds-Prefix.pch"; sourceTree = "<group>"; };
 		F563C2EC17EF7C9200460385 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F563C2ED17EF7C9200460385 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F563C2F017EF7C9200460385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F563C2F217EF7C9200460385 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F563C2F317EF7C9200460385 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F563C2F517EF7C9200460385 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		F563C2F617EF7C9200460385 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		F563C2F817EF7C9200460385 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		F563C2FA17EF7C9200460385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F563C30017EF7C9200460385 /* Stony BirdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stony BirdsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F563C2FA17EF7C9200460385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Stony Birds/Images.xcassets"; sourceTree = "<group>"; };
 		F563C30117EF7C9200460385 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F563C30917EF7C9200460385 /* Stony BirdsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stony BirdsTests-Info.plist"; sourceTree = "<group>"; };
-		F563C30B17EF7C9200460385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F563C30D17EF7C9200460385 /* Stony_BirdsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stony_BirdsTests.m; sourceTree = "<group>"; };
+		F563C31717EF7D2900460385 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F563C31B17EF7EA900460385 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		F5DF309F17EF917100C970DE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		F5DF30A217EF91E500C970DE /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+		F5DF30A817EF95F700C970DE /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		F5DF30AA17EF975400C970DE /* BallFlame.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallFlame.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,26 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F563C2FD17EF7C9200460385 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F563C30217EF7C9200460385 /* XCTest.framework in Frameworks */,
-				F563C30417EF7C9200460385 /* UIKit.framework in Frameworks */,
-				F563C30317EF7C9200460385 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F563C2CF17EF7C9200460385 = {
 			isa = PBXGroup;
 			children = (
+				F563C31A17EF7D7F00460385 /* Resources */,
 				F563C2E317EF7C9200460385 /* Stony Birds */,
-				F563C30717EF7C9200460385 /* Stony BirdsTests */,
-				F563C2DA17EF7C9200460385 /* Frameworks */,
-				F563C2D917EF7C9200460385 /* Products */,
+				F563C31917EF7D7500460385 /* Ignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				F563C2D817EF7C9200460385 /* Stony Birds.app */,
-				F563C30017EF7C9200460385 /* Stony BirdsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,14 +100,11 @@
 			children = (
 				F563C2EC17EF7C9200460385 /* AppDelegate.h */,
 				F563C2ED17EF7C9200460385 /* AppDelegate.m */,
-				F563C2EF17EF7C9200460385 /* Main.storyboard */,
 				F563C2F217EF7C9200460385 /* ViewController.h */,
 				F563C2F317EF7C9200460385 /* ViewController.m */,
+				F563C31717EF7D2900460385 /* ViewController.xib */,
 				F563C2F517EF7C9200460385 /* MyScene.h */,
 				F563C2F617EF7C9200460385 /* MyScene.m */,
-				F563C2F817EF7C9200460385 /* Spaceship.png */,
-				F563C2FA17EF7C9200460385 /* Images.xcassets */,
-				F563C2E417EF7C9200460385 /* Supporting Files */,
 			);
 			path = "Stony Birds";
 			sourceTree = "<group>";
@@ -144,24 +118,38 @@
 				F563C2EB17EF7C9200460385 /* Stony Birds-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "Stony Birds";
 			sourceTree = "<group>";
 		};
-		F563C30717EF7C9200460385 /* Stony BirdsTests */ = {
+		F563C31917EF7D7500460385 /* Ignore */ = {
 			isa = PBXGroup;
 			children = (
-				F563C30D17EF7C9200460385 /* Stony_BirdsTests.m */,
-				F563C30817EF7C9200460385 /* Supporting Files */,
+				F563C2E417EF7C9200460385 /* Supporting Files */,
+				F563C2DA17EF7C9200460385 /* Frameworks */,
+				F563C2D917EF7C9200460385 /* Products */,
 			);
-			path = "Stony BirdsTests";
+			name = Ignore;
 			sourceTree = "<group>";
 		};
-		F563C30817EF7C9200460385 /* Supporting Files */ = {
+		F563C31A17EF7D7F00460385 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F563C30917EF7C9200460385 /* Stony BirdsTests-Info.plist */,
-				F563C30A17EF7C9200460385 /* InfoPlist.strings */,
+				F5DF309D17EF915A00C970DE /* Particles */,
+				F563C31B17EF7EA900460385 /* sprites.atlas */,
+				F563C2FA17EF7C9200460385 /* Images.xcassets */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5DF309D17EF915A00C970DE /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF309F17EF917100C970DE /* spark.png */,
+				F5DF30A217EF91E500C970DE /* spark.sks */,
+				F5DF30A817EF95F700C970DE /* Fire.sks */,
+				F5DF30AA17EF975400C970DE /* BallFlame.sks */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,24 +172,6 @@
 			productReference = F563C2D817EF7C9200460385 /* Stony Birds.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F563C2FF17EF7C9200460385 /* Stony BirdsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F563C31417EF7C9200460385 /* Build configuration list for PBXNativeTarget "Stony BirdsTests" */;
-			buildPhases = (
-				F563C2FC17EF7C9200460385 /* Sources */,
-				F563C2FD17EF7C9200460385 /* Frameworks */,
-				F563C2FE17EF7C9200460385 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F563C30617EF7C9200460385 /* PBXTargetDependency */,
-			);
-			name = "Stony BirdsTests";
-			productName = "Stony BirdsTests";
-			productReference = F563C30017EF7C9200460385 /* Stony BirdsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,11 +180,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jimmy Bouker";
-				TargetAttributes = {
-					F563C2FF17EF7C9200460385 = {
-						TestTargetID = F563C2D717EF7C9200460385;
-					};
-				};
 			};
 			buildConfigurationList = F563C2D317EF7C9200460385 /* Build configuration list for PBXProject "Stony Birds" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -230,7 +195,6 @@
 			projectRoot = "";
 			targets = (
 				F563C2D717EF7C9200460385 /* Stony Birds */,
-				F563C2FF17EF7C9200460385 /* Stony BirdsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,18 +204,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DF30A917EF95F700C970DE /* Fire.sks in Resources */,
 				F563C2E817EF7C9200460385 /* InfoPlist.strings in Resources */,
+				F5DF30A317EF91E500C970DE /* spark.sks in Resources */,
+				F5DF30A117EF917100C970DE /* spark.png in Resources */,
+				F5DF30AB17EF975400C970DE /* BallFlame.sks in Resources */,
+				F563C31817EF7D2900460385 /* ViewController.xib in Resources */,
+				F563C31C17EF7EA900460385 /* sprites.atlas in Resources */,
 				F563C2FB17EF7C9200460385 /* Images.xcassets in Resources */,
-				F563C2F917EF7C9200460385 /* Spaceship.png in Resources */,
-				F563C2F117EF7C9200460385 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F563C2FE17EF7C9200460385 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F563C30C17EF7C9200460385 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,45 +229,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F563C2FC17EF7C9200460385 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F563C30E17EF7C9200460385 /* Stony_BirdsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F563C30617EF7C9200460385 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F563C2D717EF7C9200460385 /* Stony Birds */;
-			targetProxy = F563C30517EF7C9200460385 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F563C2E617EF7C9200460385 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F563C2E717EF7C9200460385 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F563C2EF17EF7C9200460385 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F563C2F017EF7C9200460385 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F563C30A17EF7C9200460385 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F563C30B17EF7C9200460385 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -392,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stony Birds/Stony Birds-Prefix.pch";
 				INFOPLIST_FILE = "Stony Birds/Stony Birds-Info.plist";
@@ -406,54 +335,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stony Birds/Stony Birds-Prefix.pch";
 				INFOPLIST_FILE = "Stony Birds/Stony Birds-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F563C31517EF7C9200460385 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stony Birds.app/Stony Birds";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stony Birds/Stony Birds-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Stony BirdsTests/Stony BirdsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F563C31617EF7C9200460385 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stony Birds.app/Stony Birds";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stony Birds/Stony Birds-Prefix.pch";
-				INFOPLIST_FILE = "Stony BirdsTests/Stony BirdsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -476,14 +364,7 @@
 				F563C31317EF7C9200460385 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F563C31417EF7C9200460385 /* Build configuration list for PBXNativeTarget "Stony BirdsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F563C31517EF7C9200460385 /* Debug */,
-				F563C31617EF7C9200460385 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

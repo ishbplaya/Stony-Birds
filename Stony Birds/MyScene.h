@@ -8,6 +8,19 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+typedef enum {
+    square = 0,
+    ball,
+    hRect,
+    vRect,
+    pig
+} ObectType;
+
+@interface MyScene : SKScene <SKPhysicsContactDelegate> {
+    NSMutableArray *pigTextures;
+}
+
+@property BOOL gameStarted;
+@property ObectType objectType;
 
 @end
